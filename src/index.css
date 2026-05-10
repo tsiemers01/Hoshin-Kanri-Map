@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-breakthrough: #3b82f6;
+  --color-annual: #8b5cf6;
+  --color-initiatives: #f59e0b;
+  --color-metrics: #10b981;
+  --color-surface: #1e293b;
+  --color-surface-light: #334155;
+  --color-surface-hover: #475569;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+@media print {
+  body { background: white !important; }
+  .no-print { display: none !important; }
+}
