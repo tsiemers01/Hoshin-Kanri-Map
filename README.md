@@ -40,6 +40,20 @@ npm run build
 npm run preview
 ```
 
+## Live Demo
+
+Deployed automatically via GitHub Pages:
+
+**https://tsiemers01.github.io/Hoshin-Kanri-Map/**
+
+Every push to `main` triggers a build and deploy via GitHub Actions.
+
+### Enable GitHub Pages (one-time setup)
+
+1. Go to your repo **Settings → Pages**
+2. Under **Source**, select **GitHub Actions**
+3. Push to `main` (or run the workflow manually) — the site will be live within a minute
+
 ## Tech Stack
 
 - React 19 + TypeScript
